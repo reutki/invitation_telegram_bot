@@ -4,7 +4,8 @@
     "description": "A Telegram bot for registering users for church events.",
     "main": "src/bot.js",
     "scripts": {
-        "start": "node src/bot.js"
+        "start": "node src/bot.js",
+        "vercel-build": "npm install"
     },
     "dependencies": {
         "dotenv": "^8.2.0",
