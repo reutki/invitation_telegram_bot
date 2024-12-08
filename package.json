@@ -1,0 +1,18 @@
+{
+    "name": "church-event-registration",
+    "version": "1.0.0",
+    "description": "A Telegram bot for registering users for church events.",
+    "main": "src/bot.js",
+    "scripts": {
+        "start": "node src/bot.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^8.8.4",
+        "node-telegram-bot-api": "^0.50.0",
+        "qrcode": "^1.4.4"
+    },
+    "author": "",
+    "license": "ISC"
+}
